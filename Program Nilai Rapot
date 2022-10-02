@@ -1,0 +1,20 @@
+// Program Nilai Rapot
+#include<iostream>
+
+using namespace std;
+int main(){
+    int nilai;
+    cout<<"Masukkan Nilai Ujian :        ";
+    cin>>nilai;
+    
+    if ((nilai>=80))
+    cout<<"Grade :    A";
+    else if((nilai>=65))
+    cout<<"Grade :    B";
+    else if((nilai>=40))
+    cout<<"Grade :    C";
+    else if((nilai>=20))
+    cout<<"Grade :    D";
+    else cout<<"Grade :    E";
+    return 0;
+}
